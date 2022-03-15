@@ -41,7 +41,7 @@ def calculator(operation, num1, num2)
     when "/"
       num1 / num2
     else 
-      "Invalid operation!"
+      puts "Invalid operation!"
       return nil
   end
 end
